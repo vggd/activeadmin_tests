@@ -1,0 +1,29 @@
+---
+- :price: 0
+  :description: Offre GRATUITE contenant la location d'un scanner Wefit© ainsi que
+                de l'accès à la plateforme Wesoft© pour la durée de 1 mois.
+  :title: Offre 1mois LOC.
+  :image_file_name: loc+passGRAT.png
+  :featured: true
+  :duration: 1
+- :price: 300
+  :description: Offre contenant la location d'un scanner Wefit© ainsi que de l'accès
+                à la plateforme Wesoft© pour la durée de 6 mois.
+  :title: Offre 6mois LOC.
+  :image_file_name: loc+pass6M.png
+  :featured: false
+  :duration: 6
+- :price: 550
+  :description: Offre contenant la location d'un scanner Wefit© ainsi que de l'accès
+                à la plateforme Wesoft© pour la durée de 12 mois.
+  :title: Offre 12mois LOC.
+  :image_file_name: loc+pass12M.png
+  :featured: false
+  :duration: 12
+- :price: 1000
+  :description: Offre contenant la location d'un scanner Wefit© ainsi que de l'accès
+                à la plateforme Wesoft© pour la durée de 24 mois.
+  :title: Offre 24mois LOC.
+  :image_file_name: loc+pass24M.png
+  :featured: false
+  :duration: 24
