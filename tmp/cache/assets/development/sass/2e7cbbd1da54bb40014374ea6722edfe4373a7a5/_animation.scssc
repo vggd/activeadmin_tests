@@ -1,0 +1,228 @@
+{:versionI"3.2.19 (Media Mark):EF:shaI"-a43ad539166974529586857a4cfe8b9364a8fafa;F:
+contents"8o:Sass::Tree::RootNode
+:@children[o:Sass::Tree::CommentNode
+:@value[I"M/* http://www.w3.org/TR/css3-animations/#the-animation-name-property-
+ * Each of these mixins support comma separated lists of values, which allows different transitions for individual properties to be described in a single style rule. Each value in the list corresponds to the value at that same position in the other properties. */:ET:
+@type:silent;[ :
+@linei:
+@options{ o;
+;[I"1/* Official animation shorthand property. */;	T;
+;;[ ;i	;
+@o:Sass::Tree::MixinDefNode:
+@nameI"animation;	T:
+@args[ :@splato:Sass::Script::Variable;I"animations;	T:@underscored_nameI"animations;	T;
+{ ;[o:Sass::Tree::MixinNode;I"
+prefixer;	T;[o:Sass::Script::String	;I"animation;	T;
+:identifier;i;
+@o;	;I"animations;	T;I"animations;	T;i;
+@o:Sass::Script::List	;[o;	;I"webkit;	T;
+;;i;
+@o;	;I"moz;	T;
+;;i;
+@o;	;I"	spec;	T;
+;;i;
+@:@separator:
+space;i;
+@:@keywords{ ;0;[ ;i;
+@;i
+:@has_childrenT;
+@o;
+;[I"*/* Individual Animation Properties */;	T;
+;;[ ;i;
+@o;;I"animation-name;	T;[ ;o;;I"
+names;	T;I"
+names;	T;
+{ ;[o;;I"
+prefixer;	T;[o;	;I"animation-name;	T;
+;;i;
+@o;	;I"
+names;	T;I"
+names;	T;i;
+@o;	;[o;	;I"webkit;	T;
+;;i;
+@o;	;I"moz;	T;
+;;i;
+@o;	;I"	spec;	T;
+;;i;
+@;;;i;
+@;{ ;0;[ ;i;
+@;i;T;
+@o;;I"animation-duration;	T;[ ;o;;I"
+times;	T;I"
+times;	T;
+{ ;[o;;I"
+prefixer;	T;[o;	;I"animation-duration;	T;
+;;i;
+@o;	;I"
+times;	T;I"
+times;	T;i;
+@o;	;[o;	;I"webkit;	T;
+;;i;
+@o;	;I"moz;	T;
+;;i;
+@o;	;I"	spec;	T;
+;;i;
+@;;;i;
+@;{ ;0;[ ;i;
+@;i;T;
+@o;;I"animation-timing-function;	T;[ ;o;;I"motions;	T;I"motions;	T;
+{ ;[o;
+;[I";/* ease | linear | ease-in | ease-out | ease-in-out */;	T;
+;;[ ;i;
+@o;;I"
+prefixer;	T;[o;	;I"animation-timing-function;	T;
+;;i;
+@o;	;I"motions;	T;I"motions;	T;i;
+@o;	;[o;	;I"webkit;	T;
+;;i;
+@o;	;I"moz;	T;
+;;i;
+@o;	;I"	spec;	T;
+;;i;
+@;;;i;
+@;{ ;0;[ ;i;
+@;i;T;
+@o;;I"animation-iteration-count;	T;[ ;o;;I"values;	T;I"values;	T;
+{ ;[o;
+;[I"/* infinite | <number> */;	T;
+;;[ ;i ;
+@o;;I"
+prefixer;	T;[o;	;I"animation-iteration-count;	T;
+;;i!;
+@o;	;I"values;	T;I"values;	T;i!;
+@o;	;[o;	;I"webkit;	T;
+;;i!;
+@o;	;I"moz;	T;
+;;i!;
+@o;	;I"	spec;	T;
+;;i!;
+@;;;i!;
+@;{ ;0;[ ;i!;
+@;i;T;
+@o;;I"animation-direction;	T;[ ;o;;I"directions;	T;I"directions;	T;
+{ ;[o;
+;[I"/* normal | alternate */;	T;
+;;[ ;i&;
+@o;;I"
+prefixer;	T;[o;	;I"animation-direction;	T;
+;;i';
+@o;	;I"directions;	T;I"directions;	T;i';
+@o;	;[o;	;I"webkit;	T;
+;;i';
+@o;	;I"moz;	T;
+;;i';
+@o;	;I"	spec;	T;
+;;i';
+@;;;i';
+@;{ ;0;[ ;i';
+@;i%;T;
+@o;;I"animation-play-state;	T;[ ;o;;I"states;	T;I"states;	T;
+{ ;[o;
+;[I"/* running | paused */;	T;
+;;[ ;i,;
+@o;;I"
+prefixer;	T;[o;	;I"animation-play-state;	T;
+;;i-;
+@o;	;I"states;	T;I"states;	T;i-;
+@o;	;[o;	;I"webkit;	T;
+;;i-;
+@o;	;I"moz;	T;
+;;i-;
+@o;	;I"	spec;	T;
+;;i-;
+@;;;i-;
+@;{ ;0;[ ;i-;
+@;i+;T;
+@o;;I"animation-delay;	T;[ ;o;;I"
+times;	T;I"
+times;	T;
+{ ;[o;;I"
+prefixer;	T;[o;	;I"animation-delay;	T;
+;;i2;
+@o;	;I"
+times;	T;I"
+times;	T;i2;
+@o;	;[o;	;I"webkit;	T;
+;;i2;
+@o;	;I"moz;	T;
+;;i2;
+@o;	;I"	spec;	T;
+;;i2;
+@;;;i2;
+@;{ ;0;[ ;i2;
+@;i1;T;
+@o;;I"animation-fill-mode;	T;[ ;o;;I"
+modes;	T;I"
+modes;	T;
+{ ;[o;
+;[I"-/* none | forwards | backwards | both */;	T;
+;;[ ;i7;
+@o;;I"
+prefixer;	T;[o;	;I"animation-fill-mode;	T;
+;;i8;
+@o;	;I"
+modes;	T;I"
+modes;	T;i8;
+@o;	;[o;	;I"webkit;	T;
+;;i8;
+@o;	;I"moz;	T;
+;;i8;
+@o;	;I"	spec;	T;
+;;i8;
+@;;;i8;
+@;{ ;0;[ ;i8;
+@;i6;T;
+@:@templateI"/// http://www.w3.org/TR/css3-animations/#the-animation-name-property-
+// Each of these mixins support comma separated lists of values, which allows different transitions for individual properties to be described in a single style rule. Each value in the list corresponds to the value at that same position in the other properties.
+
+// Official animation shorthand property.
+@mixin animation ($animations...) {
+  @include prefixer(animation, $animations, webkit moz spec);
+}
+
+// Individual Animation Properties
+@mixin animation-name ($names...) {
+  @include prefixer(animation-name, $names, webkit moz spec);
+}
+
+
+@mixin animation-duration ($times...) {
+  @include prefixer(animation-duration, $times, webkit moz spec);
+}
+
+
+@mixin animation-timing-function ($motions...) {
+// ease | linear | ease-in | ease-out | ease-in-out
+  @include prefixer(animation-timing-function, $motions, webkit moz spec);
+}
+
+
+@mixin animation-iteration-count ($values...) {
+// infinite | <number>
+  @include prefixer(animation-iteration-count, $values, webkit moz spec);
+}
+
+
+@mixin animation-direction ($directions...) {
+// normal | alternate
+  @include prefixer(animation-direction, $directions, webkit moz spec);
+}
+
+
+@mixin animation-play-state ($states...) {
+// running | paused
+  @include prefixer(animation-play-state, $states, webkit moz spec);
+}
+
+
+@mixin animation-delay ($times...) {
+  @include prefixer(animation-delay, $times, webkit moz spec);
+}
+
+
+@mixin animation-fill-mode ($modes...) {
+// none | forwards | backwards | both
+  @include prefixer(animation-fill-mode, $modes, webkit moz spec);
+}
+;	T;i;T;
+@
